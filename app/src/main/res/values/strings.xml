@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PetCare</string>
+
+    <string name="cadastrar_ae">Cadastra animal de estimação</string>
+    <string name="contatoDesenvolvedor">Contato com o desenvolvedor</string>
+    <string name="sair">Sair</string>
+
+    <string name="title_activity_desenvolvedor">DesenvolvedorActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="ligar">Ligar</string>
+
+</resources>

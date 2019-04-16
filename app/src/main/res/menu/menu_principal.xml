@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/cadastrar_ae"
+        android:title="@string/cadastrar_ae"
+        android:icon="@drawable/ic_cadastrar_pet"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/desenvolvedor"
+        android:title="@string/contatoDesenvolvedor"
+        android:icon="@drawable/ic_cadastrar_pet"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/sair"
+        android:title="@string/sair"
+        android:orderInCategory="100"
+        />
+
+</menu>
