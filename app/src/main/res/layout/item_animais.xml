@@ -24,6 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
         android:fontFamily="sans-serif"
-        android:text="Yorkshire"
+        android:text="RND"
         android:textSize="20sp" />
 </LinearLayout>
