@@ -3,6 +3,7 @@
     package="com.example.myapplication">
 
     <application
+        android:debuggable="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,8 +20,7 @@
             android:label="Cadastro" />
         <activity android:name=".MainActivity" />
         <activity
-            android:name=".SplashActivity"
-            android:label="Tela de abertura">
+            android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
