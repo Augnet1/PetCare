@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lvAnimaisC"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/fundo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Cachorro"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/raca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Poodle"
+        android:textSize="20sp" />
+</LinearLayout>
