@@ -98,9 +98,12 @@ public class DesenvolvedorActivity extends AppCompatActivity {
         ligar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "87999951042"));
-                if (intent.resolveActivity(getPackageManager()) != null) {
-                    startActivity(intent);
+                Intent intent = getIntent();
+                String telefone = intent.getStringExtra("tel");
+                /*Intent Implícita*/
+                Intent intentI = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + telefone));
+                if (intentI.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intentI);
                 }
             }
         });

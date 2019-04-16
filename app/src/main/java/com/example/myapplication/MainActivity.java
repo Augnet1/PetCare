@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         ivCadastrar_ae.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                /*Intent Explícita*/
                 Intent intent = new Intent(MainActivity.this, Cadastrar_aeActivity.class);
                 startActivity(intent);
             }
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         tvCadastrar_ae.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                /*Intent Explícita*/
                 Intent intent = new Intent(MainActivity.this, Cadastrar_aeActivity.class);
                 startActivity(intent);
             }
@@ -54,12 +56,15 @@ public class MainActivity extends AppCompatActivity {
            int id = item.getItemId();
 
             if(id == R.id.cadastrar_ae) {
+                /*Intent Explícita*/
                 Intent intent = new Intent(MainActivity.this, Cadastrar_aeActivity.class);
                 startActivity(intent);
                 return true;
             }
             if(id == R.id.desenvolvedor) {
+                /*Intent Explícita*/
                 Intent intent = new Intent(MainActivity.this, DesenvolvedorActivity.class);
+                intent.putExtra("tel", "87999951042");
                 startActivity(intent);
                 return true;
             }
